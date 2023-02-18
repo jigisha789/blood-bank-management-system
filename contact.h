@@ -1,13 +1,14 @@
 #ifndef CONTACT_H_INCLUDED
 #define CONTACT_H_INCLUDED
-#include<string>
-#include<iostream>
+#include <string>
+#include <iostream>
 using namespace std;
 class Contact
 {
 protected:
     string phone_no;
     string email;
+
 public:
     void set_phone_no(string);
     void set_email(string);
@@ -16,7 +17,7 @@ public:
 };
 void Contact::set_phone_no(string p)
 {
-    phone_no=p;
+    phone_no = p;
 }
 void Contact::set_email(string e)
 {
