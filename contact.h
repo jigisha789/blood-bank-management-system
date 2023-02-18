@@ -20,7 +20,7 @@ void Contact::set_phone_no(string p)
 }
 void Contact::set_email(string e)
 {
-    email=e;
+    email = e;
 }
 string Contact::get_phone_no()
 {
